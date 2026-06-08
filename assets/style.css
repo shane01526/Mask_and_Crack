@@ -146,6 +146,23 @@ details.appendix pre{ white-space:pre-wrap; word-break:break-word; background:#1
 .card.c1::before{ background:var(--teal); } .card.c2::before{ background:var(--brick); }
 .card.c3::before{ background:var(--amber); } .card.c4::before{ background:var(--ink-2); }
 
+/* 附錄資料連結區 */
+.dl-h{ font-size:14px; font-weight:800; color:var(--teal-d); letter-spacing:1px; margin:16px 0 6px; }
+ul.dl{ list-style:none; padding-left:0; margin:6px 0 4px; }
+ul.dl li{ padding:7px 12px; margin:5px 0; background:var(--card); border:1px solid var(--line);
+  border-radius:8px; font-size:15px; }
+ul.dl li a{ text-decoration:none; font-weight:600; }
+ul.dl li a:hover{ text-decoration:underline; }
+
+/* 附錄 B 情境頁 */
+.scen-nav{ display:flex; flex-wrap:wrap; gap:8px; margin:0 0 26px; padding:14px; background:var(--card);
+  border:1px solid var(--line); border-radius:10px; }
+.scen-nav a{ font-size:13.5px; text-decoration:none; color:var(--teal-d); font-weight:600;
+  background:var(--tealbg); padding:4px 10px; border-radius:6px; }
+.scen{ margin:26px 0; padding-bottom:18px; border-bottom:1px solid var(--line); }
+.scen .stem{ font-family:ui-monospace,Menlo,monospace; font-size:13px; color:var(--grey); margin:2px 0 8px; }
+.scen .raw{ margin-top:10px; font-size:14px; }
+
 /* 影片導覽區 */
 .media{ background:linear-gradient(135deg,#16191D 0%,#22323C 100%); color:#fff;
   padding:clamp(40px,6vw,72px) clamp(20px,6vw,80px); scroll-margin-top:70px; }
