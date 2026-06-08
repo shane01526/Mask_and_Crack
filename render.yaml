@@ -1,0 +1,23 @@
+# render.yaml — Render Blueprint
+# 純靜態網站：HTML + CSS + 圖片，無後端、無建置步驟。
+# 部署：在 Render 連接此 GitHub repo，Render 會讀取本檔自動建立 Static Site。
+# 詳見 README.md。
+services:
+  - type: web
+    name: mask-and-crack
+    runtime: static            # 靜態站台（舊版 Render 帳號若不認此鍵，改用 env: static）
+    buildCommand: ""           # 無需建置
+    staticPublishPath: .        # 網站根目錄（index.html 在 repo 根）
+    pullRequestPreviewsEnabled: false
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=86400
+    routes:
+      # 美化網址：/poster 直接導到 A0 海報 PDF
+      - type: rewrite
+        source: /poster
+        destination: /assets/Masks-and-Cracks-A0-Poster.pdf
