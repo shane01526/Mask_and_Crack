@@ -22,7 +22,7 @@
 | `assets/style.css` | 共用樣式（沿用海報深色品牌調色盤）|
 | `assets/figs/` | 報告 6 張圖（`report_fig1..6.png`）|
 | `assets/Masks-and-Cracks-A0-Poster.pdf` | A0 海報最終版（首頁可下載、`/poster` 亦可開啟）|
-| `assets/Masks-and-Cracks-video.mp4` | 影片導覽（台灣完整版，1080p，約 11 分鐘；首頁內嵌播放）|
+| `assets/Masks-and-Cracks-video.mp4` | 影片導覽（1080p，約 11 分鐘；首頁內嵌播放）|
 | `assets/Masks-and-Cracks-slides.pptx` | 簡報檔（首頁可下載運用）|
 | `data/report_seq.json` | 由 Word 報告抽出的結構化內容（供重建用）|
 | `build_site.py` | 由 `data/report_seq.json` 重新產生四個內容頁的產生器 |
