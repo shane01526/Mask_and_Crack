@@ -21,6 +21,7 @@
 | `page4.html` | **綜合與感想**：第五～七章（含組員感想）+ 附錄（可摺疊：完整 prompt、10 情境、工具清單）|
 | `assets/style.css` | 共用樣式（沿用海報深色品牌調色盤）|
 | `assets/figs/` | 報告 6 張圖（`report_fig1..6.png`）|
+| `assets/Masks-and-Cracks-Full-Report.pdf` | 完整版期末報告 PDF（首頁可下載）|
 | `assets/Masks-and-Cracks-A0-Poster.pdf` | A0 海報最終版（首頁可下載、`/poster` 亦可開啟）|
 | `assets/Masks-and-Cracks-video.mp4` | 影片導覽（1080p，約 11 分鐘；首頁內嵌播放）|
 | `assets/Masks-and-Cracks-slides.pptx` | 簡報檔（首頁可下載運用）|
